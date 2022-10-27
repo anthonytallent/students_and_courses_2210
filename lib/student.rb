@@ -23,6 +23,6 @@ class Student
       @scores.each do |score|
         score_floats << score.to_f
       end
-      score_floats.sum / 2.0
+      score_floats.sum / @scores.count
     end
 end
