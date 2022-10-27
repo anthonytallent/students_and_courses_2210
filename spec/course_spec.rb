@@ -4,7 +4,7 @@ require './lib/course'
 
 RSpec.describe Course do
 
-  describe 'Course class' do
+  describe '#Course class' do
     it 'exists' do
       course = Course.new("Calculus", 2) 
 

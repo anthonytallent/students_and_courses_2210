@@ -22,7 +22,7 @@ class Gradebook
   def failing_students
     students = []
     @students.each do |student|
-      if student.grade <= 70
+      if student.grade < 70
         students << student
       end
     end

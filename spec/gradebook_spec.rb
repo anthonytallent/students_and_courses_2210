@@ -5,7 +5,7 @@ require './lib/gradebook'
 
 RSpec.describe Gradebook do
 
-  describe 'gradebook class' do
+  describe '#gradebook class' do
     it 'exists' do
       gradebook = Gradebook.new("Mr. Smith")
 

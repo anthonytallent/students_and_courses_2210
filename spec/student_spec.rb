@@ -2,7 +2,7 @@ require './lib/student'
 
 RSpec.describe Student do
 
-  describe 'student class' do
+  describe '#student class' do
 
     it 'exists' do
       student = Student.new({name: "Morgan", age: 21})    
